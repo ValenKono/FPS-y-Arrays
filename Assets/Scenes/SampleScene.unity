@@ -329,6 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtScore: {fileID: 1088848000}
   score: 0
+  maxScore: 500
 --- !u!135 &486705006
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -637,6 +638,8 @@ MonoBehaviour:
   clonePoint: {fileID: 1015924219}
   interval: 0.5
   PosAle: {fileID: 1015924220}
+  maxClones: 10
+  cloneCount: 0
 --- !u!4 &1044196504
 Transform:
   m_ObjectHideFlags: 0
