@@ -3,23 +3,18 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
+
+
+//Agregar una variable que almacene el valor maximo de puntos
+//Cuando se llegue al valor maximo debe dejar de sumarse puntos
+//Y mostrar en txtScore el mensaje "Ganaste"
 public class ScoreCounter : MonoBehaviour
 {
-    public Text txtScore;
-    public int score;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        txtScore.text = "0";
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("Contacto");
-        AlimentoScript alimento;
-        alimento = collision.gameObject.GetComponent<AlimentoScript>();
-        score += alimento.valorAlimentario;
-        txtScore.text = score.ToString();
+        
     }
 }
