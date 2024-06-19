@@ -5,9 +5,7 @@ using UnityEngine;
 
 
 
-//Agregar una variable que almacene el valor maximo de puntos
-//Cuando se llegue al valor maximo debe dejar de sumarse puntos
-//Y mostrar en txtScore el mensaje "Ganaste"
+
 public class ScoreCounter : MonoBehaviour
 {
     
